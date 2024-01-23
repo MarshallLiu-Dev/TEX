@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Documentação Técnica</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <main id="main-doc">
+        <section class="main-section" id="HTML_and_CSS">
+            <header>HTML and CSS</header>
+            <p>Este é o primeiro parágrafo da seção "HTML and CSS".</p>
+            <p>Segundo parágrafo para atender ao requisito.</p>
+            <code>
+        function hello() {
+          return "Olá, mundo!";
+        }
+      </code>
+            <code>
+        // Outro trecho de código para atender ao requisito.
+        console.log("Hello, world!");
+      </code>
+            <p>Terceiro parágrafo para atender ao requisito.</p>
+            <ul>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+                <!-- Add more list items as needed -->
+            </ul>
+        </section>
+        <section id="JavaScript_and_Java" class="main-section">
+            <header>JavaScript and Java</header>
+            <p>Este é o primeiro parágrafo da seção "JavaScript and Java".</p>
+            <code>
+        function sayHello(name) {
+          return "Olá, " + name + "!";
+        }
+      </code>
+            <p>Segundo parágrafo para atender ao requisito.</p>
+            <ul>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+                <!-- Add more list items as needed -->
+            </ul>
+        </section>
+        <section id="HTML_and_CSS" class="main-section">
+            <header>HTML and CSS</header>
+            <code>
+        <h1>Este é um cabeçalho</h1>
+        <p>Este é um parágrafo</p>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <p>Este é um parágrafo dentro de um container</p>
+            </div>
+            <div class="col-md-6">
+              <p>Este é outro parágrafo dentro de um container</p>
+            </div>
+          </div>
+        </div>
+      </code>
+            <p>Terceiro parágrafo para atender ao requisito.</p>
+            <ul>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+                <!-- Add more list items as needed -->
+            </ul>
+        </section>
+        <section id="PHP_and_MySQL" class="main-section">
+            <header>PHP and MySQL</header>
+            <code>
+        $conn = new mysqli("localhost", "root", "", "mydb");
+
+        if ($conn->connect_error) {
+          die("Falha na conexão: " . $conn->connect_error);
+        }
+
+        $sql = "SELECT * FROM users";
+        $result = $conn->query($sql);
+
+        if ($result->num_rows > 0) {
+          while ($row = $result->fetch_assoc()) {
+            echo $row["name"] . " " . $row["email"] . "<br>";
+          }
+        } else {
+          echo "Nenhum registro encontrado";
+        }
+
+        $conn->close();
+      </code>
+            <p>Segundo parágrafo para atender ao requisito.</p>
+            <ul>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+                <!-- Add more list items as needed -->
+            </ul>
+        </section>
+
+        <!-- Adicione mais seções .main-section conforme necessário -->
+
+        <section id="New_Era" class="main-section">
+            <header>New Era</header>
+            <code>
+        // Novo código para atender ao requisito.
+        console.log("Novo código!");
+      </code>
+            <ul>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+                <!-- Add more list items as needed -->
+            </ul>
+        </section>
+    </main>
+    <nav id="navbar">
+        <header>Documentação Técnica</header>
+        <a href="#HTML_and_CSS" class="nav-link">HTML and CSS</a>
+        <a href="#JavaScript_and_Java" class="nav-link">JavaScript and Java</a>
+        <a href="#HTML_and_CSS" class="nav-link">HTML and CSS</a>
+        <a href="#PHP_and_MySQL" class="nav-link">PHP and MySQL</a>
+        <a href="#New_Era" class="nav-link">New Era</a>
+        <!-- Add more links as needed -->
+    </nav>
+</body>
+
+</html>
